@@ -1,0 +1,11 @@
+prefix=/home/slomo/cerbero/dist/android_arm
+exec_prefix=/home/slomo/cerbero/dist/android_arm
+libdir=/home/slomo/cerbero/dist/android_arm/lib
+includedir=${prefix}/include
+
+Name: libsrtp
+Version: 1.5.4
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+
+Libs: -L${libdir} -lsrtp 
+Cflags: -I${includedir}

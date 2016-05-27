@@ -1,0 +1,14 @@
+# pkg-config file from libvpx v1.5.0-6-gb626b1f
+prefix=/home/slomo/cerbero/dist/android_arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vpx
+Description: WebM Project VPx codec implementation
+Version: 1.5.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -lvpx -lm
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}
